@@ -1,0 +1,241 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family:'poppins', sans-serif;
+}
+body
+{
+    display:flex;
+    background-color: #f1f1f1;
+}
+nav
+{
+    position:absolute;
+    width: 524px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.621);
+    border-radius: 8px;
+    display: flex;
+    justify-content:space-between;
+    align-items:center ;
+    margin-left: 400px;
+
+
+
+
+}
+nav a
+{
+    position: relative;
+    display: inline-block;
+    font-size: 1em;
+    font-weight: 500;
+    color: #FFF;
+    text-decoration: none;
+    padding: 0 23PX;
+   
+    z-index: 1;
+
+}
+
+nav span
+{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 110px;
+    height:100%;
+    background: linear-gradient(45deg, #e002f8a5, #5601df);
+    border-radius: 20PX;
+transition: .5s;
+
+}
+
+nav a:nth-child(1):hover~span
+{
+    left: 0Px;
+
+}
+nav a:nth-child(2):hover~span
+{
+    left: 120px;
+
+}
+nav a:nth-child(3):hover~span
+{
+    left: 267px;
+    width: 110;
+
+}
+nav a:nth-child(4):hover~span
+{
+    left: 410px;
+    width: 110;
+}
+
+
+table{
+    margin-top: 60px;
+    margin-left:80px;}
+
+.table{
+    margin-top: 60px;
+    margin-left:80px;
+}
+.img{
+ margin-top: 0;
+    margin-left: 260px;  
+}
+
+.carousel {
+    margin-top: 100px;
+    right: 120px;
+    position:absolute;
+    width: 100%;
+    height: 300px;
+    overflow:hidden;
+  }
+  
+  .carousel img {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    animation: slide 12s infinite;
+    opacity: 0;
+  }
+  
+  @keyframes slide {
+    0% {opacity: 0;}
+    10% {opacity: 1;}
+    25% {opacity: 1;}
+    35% {opacity: 0;}
+    100% {opacity: 0;}
+  }
+  
+  .carousel img:nth-child(1) {animation-delay: 0s;}
+  .carousel img:nth-child(2) {animation-delay: 3s;}
+  .carousel img:nth-child(3) {animation-delay: 6s;}
+  .carousel img:nth-child(4) {animation-delay: 9s;}
+
+
+  
+  .texto1{
+    margin-top: 400px;
+  margin-left: 250px;
+  
+  }
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .card {
+    text-decoration: none;
+    margin: 20px;
+    width: 200px;
+    height: 300px; /* Ajusta la altura según el tamaño de tus imágenes */
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card img {
+    width: 100%;
+    height: 150px; /* Ajusta la altura según el tamaño de tus imágenes */
+    object-fit: cover;
+  }
+  
+  .card-content {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .card h2 {
+    margin-top: 0;
+    color: #333;
+  }
+  
+  .card p {
+    color: #666;
+  }
+  
+
+
+
+
+
+  footer {
+  
+    position: fixed;
+    bottom: 20px;
+    left: 20px; /* Ajusta la posición izquierda según tus necesidades */
+}
+
+.social-links {
+    display: flex;
+    flex-direction: column; /* Para que los enlaces se apilen verticalmente */
+}
+
+.social-link {
+    display: inline-block;
+    margin-bottom: 10px; /* Espacio entre cada enlace */
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.social-link img {
+    width: 100%;
+    height: auto;
+}
+
+.social-link:hover {
+    transform: scale(1.2);
+}
+
+/* Estilos para cada red social */
+.facebook {
+    background-color: #3b5998;
+}
+
+.whatsapp{
+    background-color: #4ad65b;
+}
+
+.instagram{
+    background-color: #ffffff;
+}
+
